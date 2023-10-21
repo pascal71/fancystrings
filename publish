@@ -1,0 +1,12 @@
+mkdir fancystrings
+cd fancystrings
+go mod init github.com/pascal71/fancystrings
+# Create fancystrings.go
+# Create fancystrings_test.go
+# Create repo on github (e.g. github.com/pascal71/fancystrings)
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin git@github.com:pascal71/fancystrings.git
+git push -u origin main
